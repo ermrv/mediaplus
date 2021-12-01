@@ -1,7 +1,5 @@
 import 'package:MediaPlus/APP_CONFIG/ApiUrlsData.dart';
 import 'package:MediaPlus/MODULES/7_UserAuthModule/Models/PrimaryUserDataModel.dart';
-import 'package:MediaPlus/MODULES/9_UserStatusManagerModule/views/AddStatusRelatedViews/AddStatusScreen.dart';
-import 'package:MediaPlus/MODULES/9_UserStatusManagerModule/views/DisplayStatusRelatedViews/StatusDisplayPageScreen.dart';
 import 'package:cached_network_image/cached_network_image.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
@@ -42,9 +40,9 @@ class _Template extends StatelessWidget {
   Widget build(BuildContext context) {
     return GestureDetector(
       onTap: () {
-        Get.to(() => StatusDisplayPageScreen(
-              statusData: boxContents,
-            ));
+        // Get.to(() => StatusDisplayPageScreen(
+        //       statusData: boxContents,
+        //     ));
       },
       child: Container(
         margin: EdgeInsets.symmetric(horizontal:3.0),
@@ -76,7 +74,7 @@ class _AddStatusButtonContainer extends StatelessWidget {
   Widget build(BuildContext context) {
     return GestureDetector(
       onTap: () {
-        Get.to(() => AddStatusScreen());
+        // Get.to(() => AddStatusScreen());
       },
       child: Container(
         margin: EdgeInsets.symmetric(horizontal: 3.0),
