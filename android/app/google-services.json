@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "785208266186",
+    "firebase_url": "https://mediaplus-cedc1-default-rtdb.firebaseio.com",
+    "project_id": "mediaplus-cedc1",
+    "storage_bucket": "mediaplus-cedc1.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:785208266186:android:95f9521f49450caf975333",
+        "android_client_info": {
+          "package_name": "com.aspire100.MediaPlus"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "785208266186-3g829ji5gpcig4mc3tqd94vg0fon46j3.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAhelN9lNipBDiOLsbMnc8IsfbbNaoln9w"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "785208266186-3g829ji5gpcig4mc3tqd94vg0fon46j3.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
